@@ -1,0 +1,139 @@
+<DOCTYPE html>
+<html>
+    
+<head>
+    <title> lens imagination</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+</head>
+<body>
+
+      <!--header-starts-->
+      <header>
+   <div class="logo">
+    <img width="300px"  src="images/logo 1.png" alt=" logo">
+   </div>
+   <nav>
+    <div class="nav-links" id="navlinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+           <li> <a href="index.html"> Home</a> </li>
+           <li> <a href="Aboutus.html"> About us</a> </li>
+           <li> <a href="team.html"> Team</a> </li>
+           <li> <a href="blogpage.html"> Blog </a> </li>
+           <li> <a href="services.html"> services </a> </li>
+           <li> <a href="product.html"> product </a> </li>
+           <li> <a href="contactus.html"> Contact us</a> </li>
+           <hr class="navhr">
+    
+            
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+</header>
+   <!--header-ends-->
+
+   <!--contact page-->
+    
+   <div class="inner-banner"> 
+    <div class="text-block"> 
+    <h1> Contact us  </h1>
+    <p>" contact our amazing support "</p> 
+           
+    </div>
+</div> 
+ <h1 class="heading"> contact us here </h1>
+
+ <div class="row p40">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+               <h1>Contact us </h1>
+               <h3>email: info@mywebsite.com </h3>
+               <h3>Phone: +92000000000 </h3>
+               <h3>Address: My office Address </h3>
+            </div>
+            <div class="col-6">
+                <form action=""  method="">
+                    <input type="text" name="fullname" placeholder="Full name" >
+                    <input type="text" name="email" placeholder="Email" >
+                    <input type="text" name="phone" placeholder="Phone number" >
+                     <textarea name="message" id="" col="100%" rows="20">type your message</textarea>
+                     <input type="submit" value="submit">
+                  </form>  
+            </div>
+        </div>
+        
+        </div>
+        </div>
+<!--end contact page-->
+
+<!--footer-->
+<footer>
+<div class="row">
+    <div class="container">
+    <div class="col-3">
+        <h3>information</h3>
+        <ul class="footer-menu">
+            <li>first menu</li>
+            <li> second menu</li>
+            <li>third menu</li>
+            <li>fourth menu</li>
+        </ul>
+    </div>
+<div class="col-3">
+    <h3>information</h3>
+    <ul class="footer-menu">
+        <li>first menu</li>
+        <li> second menu</li>
+        <li>third menu</li>
+        <li>fourth menu</li>
+    </ul>
+</div>
+<div class="col-3">
+<h3>information</h3>
+<ul class="footer-menu">
+    <li>first menu</li>
+    <li> second menu</li>
+    <li>third menu</li>
+    <li>fourth menu</li>
+</ul>
+</div>
+<div class="col-3">
+<h3>information</h3>
+<ul class="footer-menu">
+    <li>first menu</li>
+    <li> second menu</li>
+    <li>third menu</li>
+    <li>fourth menu</li>
+</ul>
+</div>
+</div>
+</div>
+</footer>
+<div class="copy-right">
+    <p>Copyright &copy;| Ibtihaj Qureshi</p>
+</div>
+
+
+    <!--js code-->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu() {
+            navlinks.style.left = "0";
+        }
+        function hideMenu() {
+            navlinks.style.left = "-200px";
+        }
+    </script>
+    <!--js code end-->
+
+
+</body>
+</html>
